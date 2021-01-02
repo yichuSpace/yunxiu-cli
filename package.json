@@ -1,11 +1,7 @@
 {
   "name": "yunxiu-cli",
   "version": "1.0.0",
-  "description": "",
-  "bin": {
-    "yunxiu": "bin/index.js"
-  },
-  "main": "index.js",
+  "description": "云袖脚手架",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
