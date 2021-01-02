@@ -24,6 +24,7 @@
     "access": "public"
   },
   "dependencies": {
+    "@yunxiu-cli/log": "file:../../utils/log",
     "import-local": "^3.0.2",
     "npmlog": "^4.1.2"
   }

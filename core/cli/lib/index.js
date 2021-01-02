@@ -2,7 +2,15 @@
 
 module.exports = core;
 
+const pkg = require('../package.json')
+const log = require('@yunxiu-cli/log')
 function core() {
-    // TODO
-    console.log('object');
+  checkVersion()
+}
+
+
+function checkVersion() {
+  console.log(pkg.version)
+  // or
+  log.info(pkg.version)
 }
