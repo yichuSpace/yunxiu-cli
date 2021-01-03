@@ -25,7 +25,15 @@
   },
   "dependencies": {
     "@yunxiu-cli/log": "file:../../utils/log",
+    "@yunxiu-cli/get-npm-info": "file:../../utils/get-npm-info",
+    "colors": "^1.4.0",
+    "dotenv": "^8.2.0",
     "import-local": "^3.0.2",
-    "npmlog": "^4.1.2"
+    "minimist": "^1.2.5",
+    "npmlog": "^4.1.2",
+    "path-exists": "^4.0.0",
+    "root-check": "^1.0.0",
+    "semver": "^7.3.4",
+    "user-home": "^2.0.0"
   }
 }
