@@ -1,6 +1,6 @@
 {
   "name": "@yunxiu-cli/core",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "> TODO: description",
   "author": "奕初 <1244653559@qq.com>",
   "homepage": "",
@@ -24,8 +24,8 @@
     "access": "public"
   },
   "dependencies": {
-    "@yunxiu-cli/log": "file:../../utils/log",
     "@yunxiu-cli/get-npm-info": "file:../../utils/get-npm-info",
+    "@yunxiu-cli/log": "file:../../utils/log",
     "colors": "^1.4.0",
     "dotenv": "^8.2.0",
     "import-local": "^3.0.2",
